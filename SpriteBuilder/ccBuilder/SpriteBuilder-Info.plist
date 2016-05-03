@@ -9,46 +9,10 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>ccbproj</string>
+				<string>ccb</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>sbproj.icns</string>
-			<key>CFBundleTypeName</key>
-			<string>SpriteBuilder Legacy Project</string>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>NSDocumentClass</key>
-			<string>AppDelegate</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>sbpack</string>
-			</array>
-			<key>CFBundleTypeIconFile</key>
-			<string>Package.icns</string>
-			<key>CFBundleTypeName</key>
-			<string>SpriteBuilder Package</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>????</string>
-			</array>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>LSHandlerRank</key>
-			<string>Default</string>
-			<key>LSTypeIsPackage</key>
-			<integer>1</integer>
-			<key>NSDocumentClass</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>sb</string>
-			</array>
-			<key>CFBundleTypeIconFile</key>
-			<string>sb.icns</string>
+			<string>ccb.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>SpriteBuilder Document</string>
 			<key>CFBundleTypeOSTypes</key>
@@ -65,24 +29,10 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>sbproj</string>
+				<string>ccbi</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>sbproj.icns</string>
-			<key>CFBundleTypeName</key>
-			<string>SpriteBuilder Project</string>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>NSDocumentClass</key>
-			<string>AppDelegate</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>sbi</string>
-			</array>
-			<key>CFBundleTypeIconFile</key>
-			<string>sbi.icns</string>
+			<string>ccbi.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>SpriteBuilder Published Document</string>
 			<key>CFBundleTypeRole</key>
