@@ -1319,7 +1319,7 @@
 		58FA2031162D73F3006B8856 /* TB_bottomPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TB_bottomPanel.png; sourceTree = "<group>"; };
 		58FA2032162D73F3006B8856 /* TB_leftPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TB_leftPanel.png; sourceTree = "<group>"; };
 		58FA2033162D73F3006B8856 /* TB_rightPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TB_rightPanel.png; sourceTree = "<group>"; };
-		5B321CC81A5B458800A7C779 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = DEVELOPER_DIR; };
+		5B321CC81A5B458800A7C779 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = DEVELOPER_DIR; };
 		5BA3DC2F192108AB0055DD96 /* GuideGridSizeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideGridSizeWindow.h; sourceTree = "<group>"; };
 		5BA3DC30192108AB0055DD96 /* GuideGridSizeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideGridSizeWindow.m; sourceTree = "<group>"; };
 		5BA3DC31192108AB0055DD96 /* GuideGridSizeWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideGridSizeWindow.xib; sourceTree = "<group>"; };
@@ -8226,7 +8226,7 @@
 				PROVISIONING_PROFILE = "";
 				SB_DEBUG_PREPROCESSOR_DEFINES = "$(SB_SHARED_DEBUG_PREPROCESSOR_DEFINES) ";
 				SB_RELEASE_PREPROCESSOR_DEFINES = "$(SB_SHARED_RELEASE_PREPROCESSOR_DEFINES)";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -8267,7 +8267,7 @@
 				PROVISIONING_PROFILE = "";
 				SB_DEBUG_PREPROCESSOR_DEFINES = "$(SB_SHARED_DEBUG_PREPROCESSOR_DEFINES) ";
 				SB_RELEASE_PREPROCESSOR_DEFINES = "$(SB_SHARED_RELEASE_PREPROCESSOR_DEFINES)";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -8305,7 +8305,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -8345,7 +8345,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -8425,7 +8425,7 @@
 				PROVISIONING_PROFILE = "";
 				SB_DEBUG_PREPROCESSOR_DEFINES = "$(SB_SHARED_DEBUG_PREPROCESSOR_DEFINES) ";
 				SB_RELEASE_PREPROCESSOR_DEFINES = "$(SB_SHARED_RELEASE_PREPROCESSOR_DEFINES)";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Testing;
@@ -8461,9 +8461,9 @@
 				);
 				INFOPLIST_FILE = "SpriteBuilder Tests/SpriteBuilder Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -9585,7 +9585,7 @@
 					dynamic_lookup,
 				);
 				PRODUCT_NAME = CCEffectNode;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = ccbPlugNode;
 			};
 			name = Testing;
@@ -9616,7 +9616,7 @@
 					dynamic_lookup,
 				);
 				PRODUCT_NAME = CCEffectNode;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = ccbPlugNode;
 			};
 			name = Debug;
@@ -9647,7 +9647,7 @@
 					dynamic_lookup,
 				);
 				PRODUCT_NAME = CCEffectNode;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = ccbPlugNode;
 			};
 			name = Release;
